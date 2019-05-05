@@ -1,0 +1,47 @@
+html{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+	background-color: #d1cccc;
+}
+
+.desktop-nav{
+	font-size: 22px;
+	color: white;
+	display: flex;
+	height: 64px;
+	position: fixed;
+	background-color: red;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	z-index: 1;
+}
+
+.desktop-nav a{
+	color: white;
+}
+
+.nav-item a:hover{
+	color: #f48484;
+}
+
+.mobile-nav{
+	display: none;
+}
+
+.main{
+	text-align: center;
+}
+
+.text{
+	padding: 150px 50px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.form{
+	padding: 200px 400px;
+	font-size: 20px;
+}
