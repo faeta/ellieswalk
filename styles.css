@@ -45,3 +45,13 @@ body{
 	padding: 200px 400px;
 	font-size: 20px;
 }
+
+.contact{
+	padding: 200px 400px;
+
+}
+
+.contact p{
+		padding: 20px;
+		background-color: white;
+}
