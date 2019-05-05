@@ -56,6 +56,17 @@ body{
 		background-color: white;
 }
 
+.mobile-paragraph{
+	display: none;
+}
+
+.mobile-form{
+	display: none;
+}
+
+.mobile-contact{
+	display: none;
+}
 /*Mobile Screen Viewing*/
 
 @media only screen and (max-width: 470px){
@@ -66,36 +77,43 @@ body{
 	display: none;
 }
 
-.mobile-nav{
-	display: flex;
-	font-size: 55px;
+.mobile-paragraph{
+	padding-top: 30px;
+	padding-bottom: 30px;
 	color: white;
 	display: flex;
-	height: 250px;
-	position: fixed;
-	background-color: red;
-	width: 100%;
-	z-index: 1;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-	padding: 30px;
+	align-items: center;
+	text-align: center;
+	background-color: red;
+	width: 950px;
+	font-size: 30px;
 }
 
-.mobile-nav a{
-	color: white;
-}
-
-.mobile-nav-item a:hover{
-	color: #f48484;
-}
-
-.main{
-	padding-top: 250px 
-}
-
-.text{
-	padding-top: 250px;
-}
-
+.mobile-form{
+	padding: 50px;
+	width: 950px;
+	display: inline-block;
+	text-align: center;
 	}
+
+.mobile-form p{
+	text-align: center;
+	font-size: 30px;
+}	
+
+.mobile-contact{
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	background-color: red;
+	color: white;
+	width: 950px;
+	padding: 20px;
+
+}
+.mobile-contact a{
+	color: white;	
+}
+}
